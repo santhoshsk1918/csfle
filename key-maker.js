@@ -6,15 +6,15 @@ const { MongoClient, Binary } = mongodb;
 const provider = "aws";
 const kmsProviders = {
   aws: {
-    accessKeyId: "AKIASI6S44A47CK25WH6",
-    secretAccessKey: "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",
+    accessKeyId: "<AccessKeyID>",
+    secretAccessKey: "<SecretKey>",
   },
 };
 // end-kmsproviders
 
 // start-datakeyopts
 const masterKey = {
-  key: "arn:aws:kms:ap-northeast-1:156671729721:key/4080b829-5799-4ccf-aa86-dd6d1c9dfe39",
+  key: "<YourARM>",
   region: "ap-northeast-1",
 };
 // end-datakeyopts

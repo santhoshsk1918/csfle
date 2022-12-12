@@ -12,14 +12,14 @@ async function run() {
   // start-kmsproviders
   const kmsProviders = {
     aws: {
-      accessKeyId: "AKIASI6S44A47CK25WH6",
-      secretAccessKey: "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",
+      accessKeyId: "",
+      secretAccessKey: "",
     },
   };
   // end-kmsproviders
 
   const connectionString =
-    "mongodb+srv://santhosh:santhosh@newcluster.j5z2f.mongodb.net/?retryWrites=true&w=majority";
+    "";
 
   // start-key-vault
   const keyVaultNamespace = "encryption.__keyVault";
